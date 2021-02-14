@@ -18,6 +18,10 @@ body{
     border-radius: 50px;
 }
 
+.grid {
+    display: flex;
+}
+
 .origami {
     border-radius: 20px;
     background-color: #ffffff;
@@ -25,6 +29,7 @@ body{
     margin: 25px;
     width: 310px;
     font-family: fantasy;
+    flex-direction: row;
 }
 a:link {
     color: white;
